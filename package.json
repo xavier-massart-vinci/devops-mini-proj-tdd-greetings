@@ -1,0 +1,26 @@
+{
+  "name": "devops-mini-proj-tdd-greetings",
+  "version": "1.0.0",
+  "description": "project for devops course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "jest --watch",
+    "lint": "eslint ./src/**",
+    "lint:fix": "eslint --fix ./src/**",
+    "prettier": "prettier ./src/** --check",
+    "prettier:fix": "prettier ./src/** --write",
+    "list": "ls -la"
+  },
+  "author": "Chisom Ubah, Thibaut Devos, Xavier Massart",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "prettier": "3.0.3"
+  }
+  
+}
