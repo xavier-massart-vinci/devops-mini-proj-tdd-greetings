@@ -1,5 +1,5 @@
-const sum = require('../src/app');
+const greet = require('../src/app');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('giving bob shoud be Hello, bob.', () => {
+  expect(greet('bob')).toBe('Hello, bob.');
 });
