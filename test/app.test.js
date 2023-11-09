@@ -20,4 +20,3 @@ test('giving “KRATOS”, “Thanathos”,“Hypnos”', () => {
     expect(resultat).toBe('Hello, Thanathos and Hypnos. AND HELLO KRATOS!');
   
 });
-
