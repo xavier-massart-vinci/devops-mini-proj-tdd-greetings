@@ -1,6 +1,6 @@
 class Main {
- greet(name) {
-    return `Hello, ${name}.`;
-}
+    greet(name) {
+        return `Hello, ${name}.`;
+    }
 }
 module.exports = Main;
