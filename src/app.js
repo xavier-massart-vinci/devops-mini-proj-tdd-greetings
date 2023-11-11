@@ -1,4 +1,6 @@
-function greet(name) {
-    return `Hello, ${name}.`;
+class Main{
+    greet(name) {
+        return `Hello, ${name}.`;
+    }
 }
-module.exports = greet;
+module.exports = Main;
