@@ -1,9 +1,12 @@
 class Main {
     multiNames(names){
-        if(names.length === 2)
-            return `Hello, ${names[0]} and ${names[1]}.`;
-
-        return `Hello, ${names[0]}, ${names[1]} and ${names[2]}.`;
+        let hello = 'Hello, ';
+        for (let i = 0; i < names.length - 1; i++) {
+            hello += `${names[i]}`;
+            if(i !== names.length - 2)
+                hello += `, `;
+        }
+        return hello + ` and ${names[names.length-1]}.`;
     }
 
     greet(name) {
