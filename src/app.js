@@ -1,5 +1,7 @@
 class Main {
     greet(name) {
+        if(name && typeof name === 'object')
+            return 'Hello, ' + name[0] + ' and ' + name[1]+'.';
 
         if (!name || name.trim() === "")
             return "Hello, my friend."; 
