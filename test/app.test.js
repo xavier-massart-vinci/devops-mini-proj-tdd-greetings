@@ -54,3 +54,12 @@ test('giving bob in capital letters shoud be HELLO, BOB!', () => {
 });
 
 
+test('giving Kratos, Thanathos shoud be Hello Kratos and Thanathos.', () => {
+    //Act
+    const result = main.greet(['Kratos', 'Thanathos'])
+    
+    //Assert
+    expect(result).toBe('Hello, Kratos and Thanathos.');
+});
+
+
