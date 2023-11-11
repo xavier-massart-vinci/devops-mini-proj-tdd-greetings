@@ -62,4 +62,28 @@ test('giving Kratos, Thanathos shoud be Hello Kratos and Thanathos.', () => {
     expect(result).toBe('Hello, Kratos and Thanathos.');
 });
 
+test('giving Kratos, Thanathos, Hypnos  shoud be Hello Kratos, Thanathos and Hypnos.', () => {
+    //Act
+    const result = main.greet(['Kratos', 'Thanathos', 'Hypnos'])
+    
+    //Assert
+    expect(result).toBe('Hello, Kratos, Thanathos and Hypnos.');
+});
+
+test('giving 4 names shoud be Hello, Kratos, Thanathos, Hypnos and Lucas.', () => {
+    //Act
+    const result = main.greet(['Kratos', 'Thanathos', 'Hypnos', 'Lucas'])
+    
+    //Assert
+    expect(result).toBe('Hello, Kratos, Thanathos, Hypnos and Lucas.');
+});
+
+test('giving 5 names shoud be Hello, Kratos, Thanathos, Hypnos, Lucas and Ludovic.', () => {
+    //Act
+    const result = main.greet(['Kratos', 'Thanathos', 'Hypnos', 'Lucas', 'Ludovic'])
+    
+    //Assert
+    expect(result).toBe('Hello, Kratos, Thanathos, Hypnos, Lucas and Ludovic.');
+});
+
 
