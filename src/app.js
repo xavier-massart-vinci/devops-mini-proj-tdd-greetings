@@ -5,7 +5,7 @@ class Main {
             return "Hello, my friend."; 
 
         if (name === name.toUpperCase())
-            return "HELLO, " + name +"!";
+            return `HELLO, ${name}!`;
 
         return `Hello, ${name}.`;
     }
