@@ -13,4 +13,14 @@ test('giving bob shoud be Hello, bob.', () => {
 
 });
 
+test('giving null shoud be Hello, my friend.', () => {
+
+    //Act
+    let resultat = main.greet(null);
+
+    //Assert 
+    expect(resultat).toBe('Hello, my friend.');
+
+});
+
 
