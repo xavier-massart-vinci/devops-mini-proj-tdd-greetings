@@ -23,4 +23,14 @@ test('giving null shoud be Hello, my friend.', () => {
 
 });
 
+test('giving undefined shoud be Hello, my friend.', () => {
+
+    //Act
+    let resultat = main.greet(undefined);
+
+    //Assert 
+    expect(resultat).toBe('Hello, my friend.');
+
+});
+
 
