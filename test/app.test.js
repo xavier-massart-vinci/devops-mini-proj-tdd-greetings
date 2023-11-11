@@ -43,4 +43,14 @@ test('giving an empty string shoud be Hello, my friend.', () => {
 
 });
 
+test('giving bob in capital letters shoud be HELLO, BOB!', () => {
+
+    //Act
+    let resultat = main.greet("BOB");
+
+    //Assert 
+    expect(resultat).toBe('HELLO, BOB!');
+
+});
+
 
