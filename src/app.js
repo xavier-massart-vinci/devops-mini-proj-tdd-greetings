@@ -4,8 +4,8 @@ class Main {
         if (!name || name.trim() === "")
             return "Hello, my friend."; 
 
-        if (name === "BOB")
-            return "HELLO, BOB!"
+        if (name === name.toUpperCase())
+            return "HELLO, " + name +"!";
 
         return `Hello, ${name}.`;
     }
