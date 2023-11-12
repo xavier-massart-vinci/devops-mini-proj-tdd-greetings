@@ -12,7 +12,7 @@ class Main {
   multiNames(names) {
     let namesMaj = [];
     let namesMin = [];
-    let resultat = '';
+    let result = '';
 
     names.forEach((name) => {
       name.slice(1, 2) === name.slice(1, 2).toUpperCase()
@@ -20,31 +20,31 @@ class Main {
         : namesMin.push(name);
     });
 
-    if (namesMin.length > 0) resultat += this.minNames(namesMin);
-    if (namesMaj.length > 0 && namesMin.length > 0) resultat += ' AND ';
-    if (namesMaj.length > 0) resultat += this.majNames(namesMaj);
-    return resultat;
+    if (namesMin.length > 0) result += this.minNames(namesMin);
+    if (namesMaj.length > 0 && namesMin.length > 0) result += ' AND ';
+    if (namesMaj.length > 0) result += this.majNames(namesMaj);
+    return result;
   }
 
   minNames(namesMin) {
-    let resultat = `Hello, ${namesMin[0]}`;
+    let result = `Hello, ${namesMin[0]}`;
 
     for (let index = 1; index < namesMin.length - 1; index++) {
-      resultat += `, ${namesMin[index]}`;
+      result += `, ${namesMin[index]}`;
     }
-    resultat +=
+    result +=
       namesMin.length > 1 ? ` and ${namesMin[namesMin.length - 1]}.` : '.';
-    return resultat;
+    return result;
   }
 
   majNames(namesMaj) {
-    let resultat = `HELLO ${namesMaj[0]}`;
+    let result = `HELLO ${namesMaj[0]}`;
     for (let index = 1; index < namesMaj.length - 1; index++) {
-      resultat += `, ${namesMaj[index]}`;
+      result += `, ${namesMaj[index]}`;
     }
-    resultat +=
+    result +=
       namesMaj.length > 1 ? ` AND ${namesMaj[namesMaj.length - 1]}!` : `!`;
-    return resultat;
+    return result;
   }
 }
 module.exports = Main;
