@@ -21,7 +21,7 @@ class Main {
   multiNames(names) {
     let namesMaj = [];
     let namesMin = [];
-    let resultat = '';
+    let result = '';
     let lang = 'en';  
 
       names.forEach((name) => {
@@ -33,35 +33,35 @@ class Main {
           else lang = name;
     });
 
-      if (namesMin.length > 0) resultat += this.minNames(namesMin,lang);
-    if (namesMaj.length > 0 && namesMin.length > 0) resultat += ' AND ';
-    if (namesMaj.length > 0) resultat += this.majNames(namesMaj,lang);
-    return resultat;
+      if (namesMin.length > 0) result += this.minNames(namesMin,lang);
+    if (namesMaj.length > 0 && namesMin.length > 0) result += ' AND ';
+    if (namesMaj.length > 0) result += this.majNames(namesMaj,lang);
+    return result;
   }
 
   minNames(namesMin,lang) {
-    let resultat = `${this.language[lang].word1}, ${namesMin[0]}`;
+    let result = `${this.language[lang].word1}, ${namesMin[0]}`;
 
     for (let index = 1; index < namesMin.length - 1; index++) {
-      resultat += `, ${namesMin[index]}`;
+      result += `, ${namesMin[index]}`;
     }
-    resultat +=
+    result +=
       namesMin.length > 1
         ? ` ${this.language[lang].word2} ${namesMin[namesMin.length - 1]}.`
         : '.';
-    return resultat;
+    return result;
   }
 
   majNames(namesMaj, lang) {
-    let resultat = `${this.language[lang].word1.toUpperCase()} ${namesMaj[0]}`;
+    let result = `${this.language[lang].word1.toUpperCase()} ${namesMaj[0]}`;
     for (let index = 1; index < namesMaj.length - 1; index++) {
-      resultat += `, ${namesMaj[index]}`;
+      result += `, ${namesMaj[index]}`;
     }
-    resultat +=
+    result +=
       namesMaj.length > 1
         ? ` ${this.language[lang].word2.toUpperCase()} ${namesMaj[namesMaj.length - 1]}!`
         : `!`;
-    return resultat;
+    return result;
   }
 }
 module.exports = Main;
