@@ -34,7 +34,7 @@ class Main {
     });
 
       if (namesMin.length > 0) result += this.minNames(namesMin,lang);
-    if (namesMaj.length > 0 && namesMin.length > 0) result += ' AND ';
+    if (namesMaj.length > 0 && namesMin.length > 0) result += ` ${this.language[lang].word2.toUpperCase()} `;
     if (namesMaj.length > 0) result += this.majNames(namesMaj,lang);
     return result;
   }

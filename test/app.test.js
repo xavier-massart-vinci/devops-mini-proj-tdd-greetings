@@ -118,3 +118,10 @@ test('giving 2 normal names with a language should be Bonjour, Kratos et Thanath
     expect(result).toBe('Bonjour, Kratos et Thanathos.');
 });
 
+test('giving 3 normal names and 4 names in uppercase with a language should be Dag, Thanathos, Hypnos en Lucas. EN DAG KRATOS, LUDOVIC, CHARLES EN MICHEAL!.', () => {
+  //Act
+  const result = main.greet(['Thanathos','Hypnos','Lucas','KRATOS','LUDOVIC','CHARLES','MICHEAL','nl']);
+
+  //Assert
+  expect(result).toBe('Dag, Thanathos, Hypnos en Lucas. EN DAG KRATOS, LUDOVIC, CHARLES EN MICHEAL!');
+});
