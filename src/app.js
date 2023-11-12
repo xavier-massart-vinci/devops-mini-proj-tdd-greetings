@@ -30,7 +30,7 @@ class Main {
                   ? namesMaj.push(name)
                   : namesMin.push(name);
           }
-          else lang = name;
+          else lang = name.toLowerCase();
     });
 
       if (namesMin.length > 0) result += this.minNames(namesMin,lang);
