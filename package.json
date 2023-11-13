@@ -12,7 +12,7 @@
     "prettier:fix": "prettier ./src/** --write",
     "list": "ls -la"
   },
-  "author": "Chisom Ubah, Thibaut Devos, Xavier Massart",
+  "author": "Devos Thibaut, Massart Xavier, Ubah Chisom",
   "license": "ISC",
   "devDependencies": {
     "commitizen": "^4.3.0",
