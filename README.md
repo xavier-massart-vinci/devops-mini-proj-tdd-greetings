@@ -20,3 +20,11 @@ npm run test
 - Devos Thibaut
 - Massart Xavier
 - Ubah Chisom
+
+
+## Questions
+
+- Décrivez brièvement ce que fait votre fichier YML.  
+```bash
+<votre réponse ici>
+```
