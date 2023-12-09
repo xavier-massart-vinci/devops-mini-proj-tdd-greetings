@@ -1,0 +1,18 @@
+name: Continous Inegration
+
+on:
+  pull_request:
+    branches: main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout NodeJs code
+      uses: actions/checkout@v2
+
+    - name: Setup NodeJs env
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20.x'
