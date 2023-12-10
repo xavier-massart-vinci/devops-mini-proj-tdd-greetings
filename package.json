@@ -10,7 +10,8 @@
     "lint:fix": "eslint --fix ./src/**",
     "prettier": "prettier ./src/** --check",
     "prettier:fix": "prettier ./src/** --write",
-    "list": "ls -la"
+    "list": "ls -la",
+    "build": "webpack ./src/app.js -o dist/"
   },
   "author": "Chisom Ubah, Thibaut Devos, Xavier Massart",
   "license": "ISC",
@@ -20,7 +21,8 @@
     "eslint-config-prettier": "^9.0.0",
     "jest": "^29.7.0",
     "nodemon": "^3.0.1",
-    "prettier": "3.0.3"
+    "prettier": "3.0.3",
+    "webpack": "^5.89.0"
   },
   "config": {
     "commitizen": {
