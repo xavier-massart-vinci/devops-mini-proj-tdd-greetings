@@ -20,16 +20,20 @@ jobs:
     - name: Install dependencies
       run: npm i
 
-    - name: Format with prettier
-      run: npm run prettier
-      
+    - name: Starting time
+      run: echo "Starting time `date +%H:%M:%S:%N`"
+
     - name: Fix in pretteir format
       run: npm run prettier:fix
 
-    - name: Format with lint
+    - name: Format with eslint
       run: npm run lint
       
-    - name: Fix in lint format
+    - name: Fix in eslint format
       run: npm run lint:fix
 
-
+    - name: Simple test 
+      run: npm run test
+      
+    - name: Coverage test
+      run: npm run covera
