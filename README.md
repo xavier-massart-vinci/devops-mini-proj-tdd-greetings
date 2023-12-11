@@ -8,6 +8,11 @@ Group 3
 npm install
 ```
 
+## Format
+```bash
+npm run prettier
+```
+
 ## Usage
 
 ```bash
