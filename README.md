@@ -8,6 +8,11 @@ Group 3
 npm install
 ```
 
+## Format
+```bash
+npm run prettier
+```
+
 ## Usage
 
 ```bash
@@ -25,6 +30,10 @@ npm run test
 ## Questions
 
 - Décrivez brièvement ce que fait votre fichier YML.  
+```bash
+<votre réponse ici>
+```
+- En particulier : à quoi sert le “on” ? dans votre fichier YML ?  Quelle est la différence entre “on push” et “on pull request”. Que conseilleriez-vous comme option parmi ces 2 options à un groupe de développeurs junior ? Pourquoi ? 
 ```bash
 <votre réponse ici>
 ```
