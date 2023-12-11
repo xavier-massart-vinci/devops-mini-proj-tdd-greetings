@@ -41,3 +41,7 @@ npm run test
 ```bash
 <votre réponse ici>
 ```
+- Quelle est la différence entre “use” et “run”. Expliquez par rapport à votre pipeline. 
+```bash
+<votre réponse ici>
+```
