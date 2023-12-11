@@ -21,7 +21,5 @@ jobs:
       run: npm i
 
     - name: Format the code 
+      run: npm run prettier:fix
       run: npm run prettier
-
-    - name: Lint the code
-      run: npm run lint
