@@ -37,3 +37,9 @@ jobs:
 
     - name: Building app
       run: npm run build
+
+    - name: Ending time
+      run: echo "Ending time `date +%H:%M:%S:%N`"
+
+    - name: Pipeline sucess 
+      run: echo "PIPELINE SUCCESS WITHOUT ERRORS"
