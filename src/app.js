@@ -1,5 +1,5 @@
 class Main {
-<<<<<<< HEAD
+  
   greet(name) {
     if (name && typeof name === 'object') return this.multiNames(name);
 
