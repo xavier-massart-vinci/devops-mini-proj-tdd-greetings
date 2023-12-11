@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./src/app.js",
-    "test": "jest --watch",
+    "test": "jest --watchAll",
     "lint": "eslint ./src/**",
     "lint:fix": "eslint --fix ./src/**",
     "prettier": "prettier ./src/** --check",
