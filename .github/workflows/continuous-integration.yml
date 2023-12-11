@@ -20,6 +20,8 @@ jobs:
     - name: Install dependencies
       run: npm i
 
-    - name: Format the code 
+    - name: Fix format the code 
       run: npm run prettier:fix
+
+     - name: Format the code 
       run: npm run prettier
