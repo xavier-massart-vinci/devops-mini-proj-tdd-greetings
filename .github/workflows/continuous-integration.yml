@@ -31,9 +31,9 @@ jobs:
       
     - name: Fix in eslint format
       run: npm run lint:fix
-
-    - name: Simple test 
-      run: npm run test
       
     - name: Coverage test
-      run: npm run covera
+      run: npm run coverage
+
+    - name: Building app
+      run: npm run build
