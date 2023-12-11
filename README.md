@@ -49,3 +49,7 @@ npm run test
 ```bash
 <votre réponse ici>
 ```
+- Je veux ajouter un test de sécurité sur mon pipeline en exécutant le programme secure_app. Que devrais-je faire ?  Quelles questions devriez-vous vous poser ? 
+```bash
+<votre réponse ici>
+```
