@@ -26,3 +26,10 @@ jobs:
     - name: Fix in pretteir format
       run: npm run prettier:fix
 
+    - name: Format with lint
+      run: npm run lint
+      
+    - name: Fix in lint format
+      run: npm run lint:fix
+
+
