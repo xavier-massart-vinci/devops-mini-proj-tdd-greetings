@@ -12,7 +12,7 @@
     "rules": {
         "linebreak-style": [
 			"error",
-			"unix,windows"
+            "unix"
 		],
 		"semi": [
 			"error",
