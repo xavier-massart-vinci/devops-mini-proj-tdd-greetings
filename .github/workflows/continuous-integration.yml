@@ -23,5 +23,5 @@ jobs:
     - name: Fix format the code 
       run: npm run prettier:fix
 
-     - name: Format the code 
+    - name: Format the code 
       run: npm run prettier
