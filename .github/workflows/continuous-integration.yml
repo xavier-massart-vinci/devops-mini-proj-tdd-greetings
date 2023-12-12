@@ -19,3 +19,6 @@ jobs:
 
     - name: Install dependencies
       run: npm i
+
+    - name: Starting time
+      run: echo "Starting time `date +%H:%M:%S:%N`"
