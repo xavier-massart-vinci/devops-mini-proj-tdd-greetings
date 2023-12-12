@@ -28,3 +28,6 @@ jobs:
 
     - name: Test Eslint
       run: npm run lint 
+
+    - name: Test coverage
+      run: npm run coverage
