@@ -33,3 +33,8 @@ npm run test
 ```bash
 <votre réponse ici>
 ```
+
+- Quelle est la différence entre run et run_on ?  Expliquez par rapport à votre pipeline.  
+```bash
+<votre réponse ici>
+```
