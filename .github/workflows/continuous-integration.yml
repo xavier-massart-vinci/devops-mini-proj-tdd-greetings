@@ -26,3 +26,5 @@ jobs:
     - name: Test Prettier
       run: npm prettier
       
+    - name: Test Eslint
+      run: npm lint
