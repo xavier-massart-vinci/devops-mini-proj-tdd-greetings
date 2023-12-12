@@ -43,3 +43,8 @@ npm run test
 ```bash
 <votre réponse ici>
 ```
+
+- Peut-on intervertir différentes étapes dans votre pipeline ? Que votre réponse soit oui ou non, expliquez par rapport à votre pipeline. 
+```bash
+<votre réponse ici>
+```
