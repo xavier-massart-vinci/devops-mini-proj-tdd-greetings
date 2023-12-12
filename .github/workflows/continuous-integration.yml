@@ -34,3 +34,6 @@ jobs:
 
     - name: Build
       run: npm run build
+
+    - name: End time
+      run: echo "End time `date +%H:%M:%S:%N`"
