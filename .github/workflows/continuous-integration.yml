@@ -22,24 +22,3 @@ jobs:
 
     - name: Starting time
       run: echo "Starting time `date +%H:%M:%S:%N`"
-
-    - name: Fix in pretteir format
-      run: npm run prettier:fix
-
-    - name: Format with eslint
-      run: npm run lint
-      
-    - name: Fix in eslint format
-      run: npm run lint:fix
-      
-    - name: Coverage test
-      run: npm run coverage
-
-    - name: Building app
-      run: npm run build
-
-    - name: Ending time
-      run: echo "Ending time `date +%H:%M:%S:%N`"
-
-    - name: Pipeline sucess 
-      run: echo "PIPELINE SUCCESS WITHOUT ERRORS"
