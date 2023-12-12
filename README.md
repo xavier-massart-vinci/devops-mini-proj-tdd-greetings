@@ -28,3 +28,8 @@ npm run test
 ```bash
 <votre réponse ici>
 ```
+
+- En particulier : à quoi sert le “on” ? dans votre fichier YML ?  Quelle est la différence entre “on push” et “on pull request”. Que conseilleriez-vous comme option parmi ces 2 options à un groupe de développeurs junior ? Pourquoi ? 
+```bash
+<votre réponse ici>
+```
