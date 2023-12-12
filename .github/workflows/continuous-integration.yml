@@ -22,3 +22,7 @@ jobs:
 
     - name: Starting time
       run: echo "Starting time `date +%H:%M:%S:%N`"
+
+    - name: Test Prettier
+      run: npm prettier
+      
