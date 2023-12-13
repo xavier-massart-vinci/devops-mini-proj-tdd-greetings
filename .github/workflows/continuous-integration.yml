@@ -37,3 +37,6 @@ jobs:
 
     - name: End time
       run: echo "End time `date +%H:%M:%S:%N`"
+      
+    - name: Pipeline sucess 
+      run: echo "PIPELINE SUCCESS WITHOUT ERRORS"
